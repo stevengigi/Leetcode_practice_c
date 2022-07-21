@@ -137,6 +137,19 @@ int search(int* nums, int numsSize, int target){
 
 	return -1;
 }
+// 0　　1　　2　　 4　　5　　6　　7
+
+// 7　　0　　1　　 2　　4　　5　　6
+
+// 6　　7　　0　　 1　　2　　4　　5
+
+// 5　　6　　7　　 0　　1　　2　　4
+
+// 4　　5　　6　　7　　0　　1　　2
+
+// 2　　4　　5　　6　　7　　0　　1
+
+// 1　　2　　4　　5　　6　　7　　0
 int search(int* nums, int numsSize, int target){
     int left=0;
     int right=numsSize-1;
