@@ -2,9 +2,8 @@
 
 reference : https://www.youtube.com/watch?v=ZI2z5pq0TqA
 
+reference : https://leetcode.com/problems/trapping-rain-water/solution/
 
-          : https://leetcode.com/problems/trapping-rain-water/solution/
+DP method
 
-
-#DP method
 ![image](https://user-images.githubusercontent.com/79245603/180462584-c781ea78-afe5-4211-86cb-8c06ac57171f.png)
