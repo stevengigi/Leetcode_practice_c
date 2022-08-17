@@ -29,5 +29,6 @@ char * convert(char * s, int numRows){
 int main(){
     char s[100] = "PAYPALISHIRING";
     int numRows = 3;
-    char *p=convert
+    char *p=convert(s,numRows);
+    printf("\n%s",p);
 }
