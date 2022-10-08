@@ -19,7 +19,7 @@ int removeElement(int* nums, int numsSize, int val){
 			nums[k]=nums[i];
 		}
 	}
-	nums=(int*)realloc(nums,sizeof(int)*k);
+	// nums=(int*)realloc(nums,sizeof(int)*k);
 	return k+1;
 }
 

@@ -19,6 +19,7 @@ int peakIndexInMountainArray(int* arr, int arrSize){
 }
 
 int main(){
-    int arr[5]={0,4,3,2,1};
-    printf("peakIndexInMountainArray : %d",peakIndexInMountainArray(arr,sizeof(arr)/sizeof(int)));
+    int arr[10]={24,69,100,99,79,78,67,36,26,19};
+    printf("peakIndexInMountainArray : %d\n",peakIndexInMountainArray(arr,sizeof(arr)/sizeof(int)));
+
 }

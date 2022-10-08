@@ -62,7 +62,7 @@ int maximalRectangle(char** matrix, int matrixSize, int* matrixColSize){
 
 int main(){
     char matrix[4][5]={{'1','0','1','0','0'},{'1','0','1','1','1'},{'1','1','1','1','1'},{'1','0','0','1','0'}};
-    char *p[4]={matrix[0],matrix[1],matrix[2],matrix[3]};
+    char *p[4]={&matrix[0][0],&matrix[1][0],&matrix[2][0],&matrix[3][0]};
     printf("maxtrix  size : %d\n",sizeof(matrix)/sizeof(char));
     int row=sizeof(matrix)/sizeof(matrix[0]);
     printf("maxtrix row size : %d\n",row);

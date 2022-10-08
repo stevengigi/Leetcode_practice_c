@@ -54,5 +54,6 @@ void trieFree(Trie* obj) {
 int main(){
     Trie *obj=trieCreate();
     trieInsert(obj,"abc");
+    trieInsert(obj,"abc");
     printf("%d",trieSearch(obj,"abc"));
 }
