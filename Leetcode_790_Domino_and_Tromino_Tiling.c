@@ -12,6 +12,7 @@ int numTilings(int n){
     // dp[n]-dp[n-1]=dp[n-1]+dp[n-3];
     // dp[n]=2*dp[n-1]+dp[n-3];
     int temp;
+
     if(n<=3){
         temp=dp[n];
     }else{
